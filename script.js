@@ -22,7 +22,7 @@ let data = [
     zodiac: "Aries",
     image: "https://kenthusblog.github.io/zodiak/images/Aries.jpg",
     description:
-      "Umum : Keragu-raguan bukan gaya Anda. Bingung dan tak tahu harus berbuat apa bukanlah kekhasan Anda. So, tentukan langkah yang pasti. Jangan tanggung. Jika Anda bingung menentukan sikap yang tepat di hadapan begitu banyak kemungkinan, mintalah nasihat atau pendapat orang lain. Sekalipun pendapat mereka belum tentu merupakan jawaban yang tepat, setidak-tidaknya mereka telah memberikan kisi-kisi yang berguna untuk Anda.",
+      "Lambang dari zodiak Aries adalah domba jantan yang dapat diartikan sebagai memiliki energi yang besar dan suka dengan tantangan.<br> Umum : Keragu-raguan bukan gaya Anda. Bingung dan tak tahu harus berbuat apa bukanlah kekhasan Anda. So, tentukan langkah yang pasti. Jangan tanggung. Jika Anda bingung menentukan sikap yang tepat di hadapan begitu banyak kemungkinan, mintalah nasihat atau pendapat orang lain. Sekalipun pendapat mereka belum tentu merupakan jawaban yang tepat, setidak-tidaknya mereka telah memberikan kisi-kisi yang berguna untuk Anda.",
   },
   {
     zodiac: "Cancer",
