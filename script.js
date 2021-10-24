@@ -98,7 +98,7 @@ let namaBulan = [
   "November",
   "December",
 ];
-let hasil = `<option value="" disabled selected>Choose your option</option>`;
+let hasil = `<option value="" disabled selected>Pilih Bulan</option>`;
 namaBulan.forEach((data, index) => {
   hasil += `<option value="${index + 1}">${data}</option>`;
   document.getElementById("bulan").innerHTML = hasil;
@@ -168,8 +168,8 @@ btnSearch.addEventListener("click", function () {
   data.forEach((data) => {
     if (data.zodiac == valueZodiak) {
       document.getElementById("come").innerHTML = `
-        <div class='note noteAlert'><h3>Zodiak Anda adalah ${data.zodiac}</h3></div><center>
-        <img src="${data.image}" alt="${data.zodiac}" /></center>
+        <div class='note noteAlert'><h3>Zodiak Anda adalah ${data.zodiac}</h3></div>
+        <center><img src="${data.image}" alt="${data.zodiac}" /></center>
         <p>${data.description}</p>
         <div class='block-author'>
     <div class='block-img'>
