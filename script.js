@@ -168,7 +168,7 @@ btnSearch.addEventListener("click", function () {
   data.forEach((data) => {
     if (data.zodiac == valueZodiak) {
       document.getElementById("come").innerHTML = `
-        <div class='note noteAlert'><h3>Zodiak Anda adalah ${data.zodiac}</h3></div>
+        <div class='note noteAlert'><h3>Zodiak Kamu ${data.zodiac}</h3></div>
         <center><img src="${data.image}" alt="${data.zodiac}" /></center>
         <p>${data.description}</p>
         <div class='block-author'>
